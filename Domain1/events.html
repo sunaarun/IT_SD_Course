@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Text on Button Click</title>
+</head>
+<body>
+    <button id="myButton" onclick="displayText()">Click me</button>
+    <p id="displayText" style="display: none;">Hello every one ☺.</p>
+
+    <script>
+        function displayText() {
+            var textElement = document.getElementById("displayText");
+
+            if (textElement.style.display === "none") {
+                textElement.style.display = "block";
+            } else {
+                textElement.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
