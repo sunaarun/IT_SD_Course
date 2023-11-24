@@ -15,29 +15,7 @@ class IT
        // int[] arr = { 1, 5, 4, 3, 0 };
        // SortClass sort = new SortClass();
      //   sort.mergeSorting(arr);
-            Stack<int> myStack = new Stack<int>();
-        Queue<int> queue1 = new Queue<int>();
-        Queue<int> queue2 = new Queue<int>();
-
-        myStack.Push(10);
-        myStack.Push(20);
-        myStack.Push(30);
-
-        queue1.Enqueue(40);
-        queue1.Enqueue(50);
-        queue1.Enqueue(60);
-        queue1.Enqueue(myStack.Pop());
-
-
-        queue2.Enqueue(queue1.Dequeue());
-        queue2.Enqueue(queue1.Dequeue());
-        queue2.Enqueue(myStack.Pop());
-        queue2.Enqueue(myStack.Pop());
-        foreach(int q in queue2)
-        {
-            Console.WriteLine(q);
-
-        }
+     
     }
 
 }
