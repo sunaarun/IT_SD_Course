@@ -7,14 +7,7 @@ class IT
 {
     static void Main(string[] args)
     {
-        /* for (;;)
-        {
-            // Code inside the loop
-            Console.WriteLine("hello");
-        }*/
-       // int[] arr = { 1, 5, 4, 3, 0 };
-       // SortClass sort = new SortClass();
-     //   sort.mergeSorting(arr);
+      Console.WriteLine("Hello People .. :)");
      
     }
 
