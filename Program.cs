@@ -22,6 +22,7 @@ class IT
       controller.setStudentName("John");
 
       controller.updateView();
+     Console.WriteLine("Sanaa");
     }
    
 }

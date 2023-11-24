@@ -4807,19 +4807,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\TeamsUser\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1 MSc.C.S\\Full Stack\\My Content\\Project_Folder\\Project_Folder.csproj",
+      "projectUniqueName": "C:\\Users\\TeamsUser\\Desktop\\Sanaa Al-Ahdal\\My Content\\Project_Folder\\Project_Folder.csproj",
       "projectName": "Project_Folder",
-      "projectPath": "E:\\1 MSc.C.S\\Full Stack\\My Content\\Project_Folder\\Project_Folder.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "E:\\1 MSc.C.S\\Full Stack\\My Content\\Project_Folder\\obj\\",
+      "projectPath": "C:\\Users\\TeamsUser\\Desktop\\Sanaa Al-Ahdal\\My Content\\Project_Folder\\Project_Folder.csproj",
+      "packagesPath": "C:\\Users\\TeamsUser\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TeamsUser\\Desktop\\Sanaa Al-Ahdal\\My Content\\Project_Folder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\TeamsUser\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -4870,7 +4870,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
