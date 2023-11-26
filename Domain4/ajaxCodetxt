@@ -1,0 +1,5 @@
+AJAX stands for Asynchronous JavaScript and XML. 
+It is a set of web development techniques used to create asynchronous web applications.
+
+
+ var xhttp = new XMLHttpRequest();

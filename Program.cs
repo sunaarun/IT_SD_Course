@@ -1,17 +1,32 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using System.Runtime.CompilerServices;
 using DelegateExample;
+using Xunit.Abstractions;
 
 
 class IT
 {
     static void Main(string[] args)
-    {
-      Console.WriteLine("Hello People .. :)");
-     
-    }
+    {  
+        D_child child = new D_child();
+        child.SumC(2,3);
+      
+    } // comment 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

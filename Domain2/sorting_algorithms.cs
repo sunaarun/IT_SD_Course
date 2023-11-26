@@ -6,7 +6,6 @@ class SortClass
     public void selection(int[] arr)
     {
         // Soritng by SELECTIOn Algorithm
-
         int tmp;
         for (int i = 0; i < arr.Length - 1; i++)
         {

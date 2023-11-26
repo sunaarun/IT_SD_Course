@@ -1,11 +1,12 @@
 using System.Diagnostics;
+using System.Security.Cryptography.X509Certificates;
 
 class Vehicle{
     public int model; // attributes or property
-     public string name; // attribute or property
-   public Vehicle(int m, string nam)
+     protected string name; // attribute or property
+      public Vehicle(int m, string nam)
    {
-        this.model= m;
+        this.model= m; // vehicle1
         this.name=nam;
    }
    public Vehicle()
@@ -27,6 +28,7 @@ class Vehicle{
     }
      }
 class Car :Vehicle
+
 {
   public string color; int speed;
    public override void stop()
@@ -44,8 +46,6 @@ class Car :Vehicle
   }
   public void car_message()
   {
-    Console.WriteLine("Calling Parent Display Message ...");
     base.DisplayMessage();
   }
- 
-}
+  }
