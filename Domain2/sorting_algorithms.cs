@@ -90,13 +90,62 @@ class SortClass
         return i;
    }// Partition
 
-   public void mergeSorting(int[] arr)
-   {
-    // Write your code here
+  public  void MergeSorting(int[] arr)
+{
+    int len = arr.Length;
+    if (len <= 1) return;
 
-   }
-   private void merging(int[] leftArr, int[] rightArr, int[] arr)
-   {
-    // write your code here
-   }
+    int middle = len / 2;
+    int[] leftArr = new int[middle];
+    int[] rightArr = new int[len - middle];
+
+    // Copy elements to left and right arrays
+    for (int i = 0; i < middle; i++)
+    {
+        leftArr[i] = arr[i];
+    }
+    for (int i = middle; i < len; i++)
+    {
+        rightArr[i - middle] = arr[i];
+    }
+
+    MergeSorting(leftArr);
+    MergeSorting(rightArr);
+    Merging(leftArr, rightArr, arr);
+}
+
+public void  Merging(int[] leftArr, int[] rightArr, int[] arr)
+{
+    int leftSize = leftArr.Length;
+    int rightSize = rightArr.Length;
+    int i = 0, l = 0, r = 0;
+
+    // Merge left and right arrays into arr
+    while (l < leftSize && r < rightSize)
+    {
+        if (leftArr[l] <= rightArr[r])
+        {
+            arr[i++] = leftArr[l++];
+        }
+        else
+        {
+            arr[i++] = rightArr[r++];
+        }
+    }
+
+    // Copy remaining elements of leftArr if any
+    while (l < leftSize)
+    {
+        arr[i++] = leftArr[l++];
+    }
+
+    // Copy remaining elements of rightArr if any
+    while (r < rightSize)
+    {
+        arr[i++] = rightArr[r++];
+    }
+
+    // No need to print here, just sorting the array
+}
+  
 }
